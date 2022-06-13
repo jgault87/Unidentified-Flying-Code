@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 
-.code-editor{
+.code-editor {
     width: 90vw;
     height: 90vh;
     display: grid;
@@ -27,7 +27,7 @@ body {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     overflow-y: auto;
-    background-color: #000000;
+    background-color: #000000d0;
     padding: 1rem;
 
 }
@@ -35,20 +35,23 @@ body {
 .code textarea {
     width: 100%;
     height: calc(100% - 4rem);
-    background-color: #88fc9c9a;
+    background-color: #88fc9b36;
     color: #fff;
     border: none;
     padding: 1rem;
     font-size: 1rem;
     resize: vertical;
 }
-.code textarea::-webkit-scrollbar{
+
+.code textarea::-webkit-scrollbar {
     width: .6rem;
 }
-.code textarea::-webkit-scrollbar-thumb{
+
+.code textarea::-webkit-scrollbar-thumb {
     background-color: #fff;
     border-radius: .4rem;
 }
+
 #result {
     width: 100%;
     height: 100%;
@@ -56,7 +59,7 @@ body {
 }
 
 h1 {
-    
-    margin: 1rem ;
+
+    margin: 1rem;
     color: rgb(234, 234, 234);
 }
